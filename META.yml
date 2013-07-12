@@ -1,0 +1,40 @@
+---
+abstract: 'A plugin for Nephia that give LTSV responding feature'
+author:
+  - 'ytnobody <ytnobody@gmail.com>'
+build_requires:
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Nephia-Plugin-Response-LTSV
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Nephia::Plugin::Response::LTSV:
+    file: lib/Nephia/Plugin/Response/LTSV.pm
+    version: 0.01
+requires:
+  Hash::Flatten: 0
+  Nephia: 0.32
+  Text::LTSV: 0
+  perl: 5.008005
+resources:
+  bugtracker: https://github.com/ytnobody/Nephia-Plugin-Response-LTSV/issues
+  homepage: https://github.com/ytnobody/Nephia-Plugin-Response-LTSV
+  repository: git://github.com/ytnobody/Nephia-Plugin-Response-LTSV.git
+version: 0.01
